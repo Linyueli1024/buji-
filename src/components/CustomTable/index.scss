@@ -1,0 +1,29 @@
+table thead tr th{
+    border: none !important;
+  }
+.class-tag-active{
+  background-color: #769488;
+  padding: 8px;
+  border-radius: 18px;
+  color: #fff;
+}
+.class-button-isCheckedIn{
+  border-radius: 10px;
+  background-color: #e7f8f0;
+  color:#76bc9c;
+}
+.class-button-awaitingCheckOut{
+  border-radius: 10px;
+  background-color: #fcece8;
+  color: #d3726e;
+}
+.class-button-isCheckedOut{
+  border-radius: 10px;
+  background-color: #e8f1ff;
+  color: #6b8cc4;
+}
+.class-button-awaitingCheckIn{
+  border-radius: 10px;
+  background-color: #faf3e5;
+  color: #e8a056;
+}
