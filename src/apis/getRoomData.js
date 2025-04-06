@@ -8,7 +8,9 @@ const GetRoomDate = async () => {
     "username": "zymanager",
     "password": "zy12345678!@"
     }
-    const response = await axios.post('https://yapi.pro/mock/374222/getRoom', JSON.stringify(data),{
+    // https://45-33-74-141.ip.linodeusercontent.com:8443/api/hotelstayinfo
+    // https://yapi.pro/mock/374222/getRoom
+    const response = await axios.post('https://45-33-74-141.ip.linodeusercontent.com:8443/api/hotelstayinfo', JSON.stringify(data),{
     headers: {
         'Content-Type': 'application/text' // 明确设置请求头
     }

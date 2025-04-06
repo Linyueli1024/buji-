@@ -7,7 +7,7 @@ const Room = () => {
     // const [mondayDate,setMondayDate] = useState('')
     // DataNavigator组件到Room组件通讯
     const [date, setDate2] = useState(localStorage.getItem('selectDate')?dayjs(localStorage.getItem('selectDate')):dayjs())
-    console.log(date);
+    // console.log(date);
     // Loading占位符
     const [isLoading, setIsLoading] = useState(true)
     
@@ -73,7 +73,7 @@ const Room = () => {
         fetchRoomData(); // 调用异步函数
     }, [mondayDate]); // 仅在 mondayDate 实际变化时触发
     // console.log(mondayDate);
-    console.log(date);
+    // console.log(date);
     //将选中日期存入本地存储
     localStorage.setItem('selectDate',date)
 
